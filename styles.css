@@ -354,6 +354,13 @@ mark {
 
 .note-icon {
     font-size: 1.5rem;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+}
+
+.note-icon i {
+    font-size: 1.5rem;
 }
 
 .scroll-indicator {
@@ -499,6 +506,13 @@ mark {
 .subsection-title {
     font-size: 1.25rem;
     margin-bottom: var(--space-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.subsection-title i {
+    color: var(--primary);
 }
 
 .timeline {
@@ -617,6 +631,14 @@ mark {
 .question-icon {
     font-size: 2.5rem;
     margin-bottom: var(--space-sm);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-icon i {
+    font-size: 2.5rem;
 }
 
 .question-card h4 {
@@ -658,6 +680,14 @@ mark {
 
 .accordion-icon {
     font-size: 1.5rem;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    min-width: 24px;
+}
+
+.accordion-icon i {
+    font-size: 1.5rem;
 }
 
 .accordion-title {
@@ -671,6 +701,12 @@ mark {
     font-size: 0.75rem;
     color: var(--gray-400);
     transition: transform var(--transition-normal);
+    display: flex;
+    align-items: center;
+}
+
+.accordion-arrow i {
+    font-size: 0.75rem;
 }
 
 .accordion-item.active .accordion-arrow {
@@ -855,6 +891,13 @@ mark {
 .solution-card h4 {
     font-size: 1.125rem;
     margin-bottom: var(--space-md);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.solution-card h4 i {
+    color: var(--primary);
 }
 
 .solution-problem,
@@ -893,6 +936,13 @@ mark {
 
 .solution-problem-box h4 {
     margin-bottom: var(--space-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.solution-problem-box h4 i {
+    color: var(--danger);
 }
 
 .solution-problem-box ul {
@@ -931,6 +981,13 @@ mark {
 .reference-box h5 {
     font-size: 0.875rem;
     margin-bottom: var(--space-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.reference-box h5 i {
+    color: var(--primary);
 }
 
 .reference-box ul {
@@ -953,6 +1010,17 @@ mark {
 .flow-solution h3 {
     font-size: 1.125rem;
     margin-bottom: var(--space-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.flow-problem h3 i {
+    color: var(--danger);
+}
+
+.flow-solution h3 i {
+    color: var(--secondary);
 }
 
 .flow-steps {
@@ -993,6 +1061,22 @@ mark {
 
 .step-icon {
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-700);
+}
+
+.step-icon i {
+    font-size: 1.5rem;
+}
+
+.flow-step.highlight .step-icon {
+    color: var(--white);
+}
+
+.flow-step.highlight .step-icon i {
+    color: var(--white);
 }
 
 .flow-arrow {
@@ -1029,6 +1113,14 @@ mark {
 .benefit-box h4 {
     color: var(--white);
     margin-bottom: var(--space-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+}
+
+.benefit-box h4 i {
+    color: var(--white);
 }
 
 /* ===== Mindset Section ===== */
@@ -1061,6 +1153,14 @@ mark {
 .mindset-card h3 {
     font-size: 1rem;
     margin-bottom: var(--space-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+}
+
+.mindset-card h3 i {
+    font-size: 1.125rem;
 }
 
 .mindset-card blockquote {
@@ -1152,6 +1252,15 @@ mark {
 
 .ai-capabilities h3 {
     margin-bottom: var(--space-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+}
+
+.ai-capabilities h3 i {
+    color: var(--primary);
+    font-size: 1.5rem;
 }
 
 .capability-tags {
@@ -1174,6 +1283,15 @@ mark {
 .action-plan h3 {
     text-align: center;
     margin-bottom: var(--space-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+}
+
+.action-plan h3 i {
+    color: var(--primary);
+    font-size: 1.5rem;
 }
 
 .action-grid {
@@ -1208,8 +1326,14 @@ mark {
 
 .action-icon {
     font-size: 2rem;
-    display: block;
+    display: flex;
+    align-items: center;
     margin-bottom: var(--space-md);
+    color: var(--primary);
+}
+
+.action-icon i {
+    font-size: 2rem;
 }
 
 .action-card h4 {
@@ -1281,6 +1405,14 @@ mark {
 .plan-card h3 {
     color: var(--white);
     margin-bottom: var(--space-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.plan-card h3 i {
+    color: var(--white);
+    font-size: 1.5rem;
 }
 
 .plan-highlight {
