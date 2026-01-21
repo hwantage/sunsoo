@@ -437,7 +437,7 @@ mark {
 .section-desc {
     font-size: 1.125rem;
     color: var(--gray-600);
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto;
 }
 
