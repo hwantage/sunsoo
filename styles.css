@@ -917,6 +917,30 @@ mark {
     border-radius: var(--radius-md);
 }
 
+.dashboard-preview {
+    margin-top: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--white);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--gray-200);
+}
+
+.dashboard-description {
+    margin-bottom: var(--space-md);
+    color: var(--gray-700);
+    text-align: center;
+}
+
+.dashboard-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    display: block;
+    margin: 0 auto;
+}
+
 .solution-card ul {
     padding-left: var(--space-lg);
     list-style: disc;
